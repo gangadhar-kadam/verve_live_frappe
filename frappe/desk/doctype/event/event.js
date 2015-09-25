@@ -1,7 +1,7 @@
 // Copyright (c) 2015, Frappe Technologies Pvt. Ltd. and Contributors
 // MIT License. See license.txt
 
-frappe.ui.form.on("Event", "refresh", function(frm,dt,dn) {
+/*frappe.ui.form.on("Event", "refresh", function(frm,dt,dn) {
   var date = frappe.datetime.now_datetime()
   // console.log(date)
   // console.log(frm.doc.starts_on)
@@ -24,9 +24,9 @@ frappe.ui.form.on("Event", "refresh", function(frm,dt,dn) {
       refresh_field('senior_cell');
     });*/
 
-});
+//});
 
-frappe.ui.form.on("Event", "validate", function(frm,doc) {
+/*frappe.ui.form.on("Event", "validate", function(frm,doc) {
   var date = frappe.datetime.now_datetime()
    if(frm.doc.starts_on){
     // var date = frappe.datetime.now_datetime()
@@ -50,7 +50,7 @@ frappe.ui.form.on("Event", "repeat_on", function(frm,doc) {
 			cur_frm.set_value(v, 1);
 		})
 	}
-});
+});*/
 
 // frappe.ui.form.on("Event", "starts_on", function(frm,doc) {
 //   if(frm.doc.starts_on) {
@@ -71,7 +71,7 @@ frappe.ui.form.on("Event", "repeat_on", function(frm,doc) {
 //   }
 // });
 
-frappe.ui.form.on("Event", "onload", function(frm,doc) {
+/*frappe.ui.form.on("Event", "onload", function(frm,doc) {
 		$( "#map-canvas" ).remove();
 		$(cur_frm.get_field("address").wrapper).append('<div id="map-canvas" style="width: 425px; height: 425px;"></div>');
 		if(!frm.doc.__islocal ) {
@@ -198,3 +198,4 @@ cur_frm.cscript.address = function(doc, dt, dn){
       }
     });
 }
+*/
